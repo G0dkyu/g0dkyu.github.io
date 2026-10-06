@@ -1,0 +1,87 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Pictomoment 개인정보처리방침</title>
+<style>
+  :root { --bg:#ECEAE5; --sheet:#FFFFFF; --ink:#18181B; --muted:#5F5D58; --line:#DAD6CF; }
+  * { box-sizing: border-box; }
+  body { margin:0; background:var(--bg); color:var(--ink); font:16px/1.7 -apple-system, "Apple SD Gothic Neo", "Malgun Gothic", "Noto Sans KR", sans-serif; padding:24px 16px 64px; }
+  main { max-width:760px; margin:0 auto; background:var(--sheet); border:1px solid var(--line); border-radius:20px; padding:28px 24px; }
+  h1 { font-size:26px; line-height:1.3; margin:0 0 6px; }
+  h2 { font-size:18px; margin:28px 0 8px; }
+  p, li { color:var(--ink); }
+  .meta { color:var(--muted); font-size:14px; margin:0 0 20px; }
+  .summary { background:var(--bg); border-radius:12px; padding:14px 16px; font-weight:600; }
+  table { width:100%; border-collapse:collapse; font-size:14px; }
+  th, td { text-align:left; vertical-align:top; padding:8px 6px; border-top:1px solid var(--line); }
+  th { color:var(--muted); font-weight:600; white-space:nowrap; }
+  .scroll { overflow-x:auto; }
+  a { color:inherit; }
+  hr { border:0; border-top:1px solid var(--line); margin:36px 0; }
+</style>
+</head>
+<body>
+<main>
+  <h1>Pictomoment 개인정보처리방침</h1>
+  <p class="meta">시행일: 2026-10-06 · 문의: <a href="mailto:iamksk7971@gmail.com">iamksk7971@gmail.com</a></p>
+
+  <p class="summary">이 앱은 사진을 사용자 기기 안에서만 처리하며, 사진이나 개인정보를 개발자 서버로 보내거나 수집하지 않습니다. 무료 이용 시 저장 전에 보여 주는 광고를 위해 Google AdMob 이 광고 식별자 등 광고에 필요한 정보를 수집합니다.</p>
+
+  <h2>1. 수집하는 정보</h2>
+  <div class="scroll"><table>
+    <tr><th>항목</th><th>수집</th><th>설명</th></tr>
+    <tr><td>사진·영상</td><td>수집하지 않음</td><td>시스템 사진 선택기로 고른 사진만 기기 안에서 읽어 편집하고, 결과물은 기기 갤러리(Pictures/Pictomoment)에만 저장합니다. 외부로 보내지 않습니다.</td></tr>
+    <tr><td>사진 정보(촬영일, 카메라 기종)</td><td>수집하지 않음</td><td>기기 안에서 읽어 프레임 문구(날짜 캡션)에만 씁니다. 저장하거나 보내지 않습니다.</td></tr>
+    <tr><td>위치</td><td>앱은 수집하지 않음</td><td>사진의 GPS 정보를 읽지 않으며 결과물에 넣지 않습니다. 광고 SDK 가 IP 주소로 대략적인 위치를 추정할 수 있습니다(아래 광고 항목).</td></tr>
+    <tr><td>계정·이름·이메일·연락처</td><td>수집하지 않음</td><td>회원가입과 로그인이 없습니다.</td></tr>
+    <tr><td>광고 관련 정보</td><td>Google AdMob 이 수집</td><td>무료 사용자에게 저장 전 광고를 보여 주기 위해 Google Mobile Ads SDK 를 씁니다. 이 SDK 는 광고 ID·앱 세트 ID, IP 주소(대략적 위치 추정), 앱 상호작용(앱 실행, 탭, 광고 시청), 진단 정보(앱 실행 시간, 멈춤 비율 등)를 광고·분석·사기 방지 목적으로 Google 에 보냅니다. 개발자는 이 데이터를 직접 받지 않습니다. 프리미엄 구매자에게는 광고를 요청하거나 표시하지 않습니다(광고 SDK 초기화는 앱 시작 때 진행될 수 있습니다). <a href="https://policies.google.com/technologies/ads">Google 광고 정책</a></td></tr>
+    <tr><td>결제 정보</td><td>직접 수집하지 않음</td><td>프리미엄 1회 구매는 Google Play 결제가 처리합니다. 앱은 구매 여부만 Google Play 에서 확인해 기기 안에서 기능을 엽니다. 카드 정보는 개발자에게 전달되지 않습니다.</td></tr>
+    <tr><td>오류·성능 정보</td><td>별도로 수집하지 않음</td><td>앱 안에 오류 보고 SDK 가 없습니다. Google Play 가 사용자 설정에 따라 제공하는 집계(Android Vitals)만 참고합니다.</td></tr>
+  </table></div>
+
+  <h2>2. 권한</h2>
+  <ul>
+    <li>사진 선택: 시스템 사진 선택기를 쓰며, 갤러리 전체 접근 권한을 요청하지 않습니다.</li>
+    <li>저장: Android 8~9 기기에서만 갤러리에 저장하기 위해 저장 권한을 요청합니다.</li>
+    <li>결제: Google Play 인앱 결제.</li>
+    <li>인터넷: 광고(AdMob)와 결제(Google Play) 통신에만 씁니다. 사진은 이 연결로 보내지 않습니다.</li>
+  </ul>
+
+  <h2>3. 보관과 삭제</h2>
+  <p>서버가 없어 개발자가 보관하는 사용자 데이터가 없습니다. 저장한 결과물은 사용자의 갤러리에 있으며 직접 지울 수 있습니다. 앱을 삭제하면 앱 설정도 함께 지워집니다. 광고 ID 는 기기 설정에서 재설정하거나 삭제할 수 있습니다.</p>
+
+  <h2>4. 제3자 제공과 국외 이전</h2>
+  <p>사진과 개인정보를 제3자에게 제공하지 않습니다. 광고를 위해 Google AdMob 이 위 정보를 처리하며(국외 서버 포함) Google 의 방침을 따릅니다. 유럽경제지역 사용자에게는 처음 실행할 때 동의 화면(Google UMP)을 보여 줍니다. 결제는 Google Play 가 처리합니다.</p>
+
+  <h2>5. 아동</h2>
+  <p>이 앱은 아동을 대상으로 하지 않으며, 아동의 개인정보를 의도적으로 수집하지 않습니다.</p>
+
+  <h2>6. 변경</h2>
+  <p>방침이 바뀌면 이 페이지의 시행일을 고치고, 수집 항목이 늘어나는 변경은 앱 업데이트 안내에도 적습니다.</p>
+
+  <h2>7. 문의</h2>
+  <p><a href="mailto:iamksk7971@gmail.com">iamksk7971@gmail.com</a></p>
+
+  <hr>
+
+  <h1 lang="en">Pictomoment Privacy Policy</h1>
+  <p class="meta" lang="en">Effective: 2026-10-06 · Contact: <a href="mailto:iamksk7971@gmail.com">iamksk7971@gmail.com</a></p>
+  <div lang="en">
+    <p class="summary">Your photos are processed on your device and never uploaded. Free users see a short ad before saving; that ad is served by Google AdMob, which collects the data described below.</p>
+    <ul>
+      <li><b>Photos</b>: chosen with the system photo picker, edited on-device, saved to your gallery (Pictures/Pictomoment). Nothing is sent anywhere.</li>
+      <li><b>Photo metadata</b> (capture date, camera model): read on-device for the date caption only. GPS data is not read or included.</li>
+      <li><b>Accounts</b>: none. No sign-up, no sign-in.</li>
+      <li><b>Advertising</b>: the Google Mobile Ads SDK collects the advertising ID and app set ID, IP address (used to estimate approximate location), app interactions (launches, taps, ad views) and diagnostics (launch time, hang rate) for advertising, analytics and fraud prevention. The developer does not receive this data. Premium purchasers are never requested or shown ads (the ads SDK may still initialize at app start). <a href="https://policies.google.com/technologies/ads">Google ads policy</a></li>
+      <li><b>Payments</b>: the one-time purchase is handled by Google Play Billing. The app only checks purchase status to unlock features on-device.</li>
+      <li><b>Crash data</b>: no in-app crash reporting SDK; only aggregated Android Vitals from Google Play.</li>
+      <li><b>Retention</b>: there is no server, so the developer keeps no user data. You can reset or delete your advertising ID in device settings.</li>
+      <li><b>Children</b>: the app is not directed at children.</li>
+      <li><b>Changes</b>: updates change the effective date above.</li>
+    </ul>
+  </div>
+</main>
+</body>
+</html>
